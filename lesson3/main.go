@@ -36,7 +36,7 @@ func main() {
 	*/
 	defer hello()
 
-	/* Задача 4.7
+	/* Задача 4.6
 	"Вывести первые 23 числа Фибоначчи, не используя циклы и максимум один оператор if"
 	*/
 	printFibonacci()
@@ -59,7 +59,7 @@ func hello3() func() {
 	}
 }
 
-/* Задача 4.7*/
+/* Задача 4.6*/
 func printFibonacci() {
 	firstNum := 0
 	secondNum := 1
