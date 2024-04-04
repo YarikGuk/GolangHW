@@ -39,7 +39,7 @@ func main() {
 	/* Задача 4.6
 	"Вывести первые 23 числа Фибоначчи, не используя циклы и максимум один оператор if"
 	*/
-	printFibonacci()
+	printFibonacci(23)
 }
 
 /* Задача 4.1*/
@@ -60,25 +60,28 @@ func hello3() func() {
 }
 
 /* Задача 4.6*/
-func printFibonacci() {
+func printFibonacci(amountOfNumbers int8) {
 	firstNum := 0
 	secondNum := 1
 	var iterationNum int8 = 1
-	fmt.Println("iteration:", iterationNum, ", number:", firstNum)
 
+	fmt.Println("iteration:", iterationNum, ", number:", firstNum)
 	iterationNum++
-	fibonacci(iterationNum, firstNum, firstNum+secondNum)
+
+	printNextFibonacciNumber(amountOfNumbers, iterationNum, firstNum, firstNum+secondNum)
 
 }
 func getNextFibonacciNum(prevNum int, curNum int) (int, int) {
 	return curNum, prevNum + curNum
 }
-func fibonacci(iterationNum int8, prevNum int, curNum int) {
-	if iterationNum <= 23 {
-		fmt.Println("iteration: ", iterationNum, ", number:", curNum)
-		newPrev, newCur := getNextFibonacciNum(prevNum, curNum)
-		iterationNum++
-		fibonacci(iterationNum, newPrev, newCur)
+
+func printNextFibonacciNumber(amountOfNumbers int8, iterationNum int8, prevNum int, curNum int) {
+	newPrev, newCur := getNextFibonacciNum(prevNum, curNum)
+	fmt.Println("iteration: ", iterationNum, ", number:", curNum)
+	iterationNum++
+
+	if iterationNum <= amountOfNumbers {
+		printNextFibonacciNumber(amountOfNumbers, iterationNum, newPrev, newCur)
 	} else {
 		return
 	}
