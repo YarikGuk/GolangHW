@@ -10,7 +10,7 @@ func main() {
 	Необходимо создать указатель на строковое значение
 	*/
 	strValue := "Your ADV could be here"
-	pointer := &strValue
+	var pointer *string = &strValue
 	fmt.Println("Pointer", pointer)
 
 	/* Задача 5.2
