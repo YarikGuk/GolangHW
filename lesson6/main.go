@@ -46,6 +46,7 @@ func main() {
 		Date:   "2024-01-31",
 	}
 	fmt.Printf("{ID:%d Number:%s Date:%s}\n", someContract.ID, strings.ReplaceAll(someContract.Number, "\n", "\\n"), someContract.Date)
+	fmt.Printf("%+v\n", someContract)
 	fmt.Println()
 
 	/* Задача 6.2
