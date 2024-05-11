@@ -73,7 +73,7 @@ func main() {
 		Number: "#000A\\n101",
 		Date:   "2024-01-31",
 	}
-	fmt.Printf("%+v", someThirdContract)
+	fmt.Println(someThirdContract)
 
 	/* Задача 6.4
 	Необходимо убрать повторяющийся код - поля Addss и Phone из структур:
