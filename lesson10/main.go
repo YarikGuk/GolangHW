@@ -4,7 +4,8 @@ import (
 	"first"
 	_ "first"
 	"fmt"
-	//"github.com/YarikGuk/GoHelloModule"
+	v1 "github.com/YarikGuk/GoHelloModule"
+	v2 "github.com/YarikGuk/GoHelloModule/v2"
 	"second"
 )
 
@@ -37,5 +38,6 @@ func main() {
 	Написать программу, которая будет одновременно использовать логику версий v1.0.0 и v1.1.0.
 	Результат должен выводиться в консоль.
 	*/
-	//fmt.Println(GoHelloModule.Hello())
+	v1.Hello()
+	v2.Hello()
 }
