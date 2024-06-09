@@ -1,3 +1,9 @@
+github.com/YarikGuk/GoDcModule v1.1.0 h1:lRzTj5icFHMoTH+A08m7IKfTUuvyvkA1SSl0gD7ZWe4=
+github.com/YarikGuk/GoDcModule v1.1.0/go.mod h1:/YZ/1k6T4CaMUwGqx8la/R8QCCvNz+L++VfvTYjFcFg=
+github.com/YarikGuk/GoDcModule/v2 v2.0.0 h1:9egr7IQA3bemaUtienfDwjlLNTVLbPQuREz0OKf8N+8=
+github.com/YarikGuk/GoDcModule/v2 v2.0.0/go.mod h1:veTnNCsaa5aGP3gNJ5F4VY7f71JpUP3HRmoI9C6gaY4=
+github.com/YarikGuk/GoDcModule/v2 v2.1.0 h1:J/cL4Q/SmC3vWwZ4XverTHqJmycMyw/xjTyUM36jwCQ=
+github.com/YarikGuk/GoDcModule/v2 v2.1.0/go.mod h1:veTnNCsaa5aGP3gNJ5F4VY7f71JpUP3HRmoI9C6gaY4=
 github.com/YarikGuk/GoHelloModule v1.0.0 h1:OoWaVLo9SmyWDlBzdQzwurn7fSlrDi4H1QI2yLIdIwg=
 github.com/YarikGuk/GoHelloModule v1.0.0/go.mod h1:zHRzRWijZ9JuKc1EnAkMtV2il2UeqcD1RXzjUlu88bU=
 github.com/YarikGuk/GoHelloModule v1.1.0 h1:V5HU4YoZ2RkuXycEp9wrvrKfF23gOUOwoXvcHN6CBao=
